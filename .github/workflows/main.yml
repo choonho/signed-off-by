@@ -1,4 +1,5 @@
-on: [push]
+name: Check signed commits in PR
+on: pull_request
 jobs:
   check-signed-off:
     runs-on: ubuntu-latest
